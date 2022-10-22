@@ -23,7 +23,7 @@ const Home: NextPage = () => {
       />
       <meta
         property="og:image"
-        content="/og-img-zkript-software-development.png"
+        content="https://zkript.dev/og-img-zkript-software-development.png"
       />
     </Head>
     <div>
