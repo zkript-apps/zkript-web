@@ -7,7 +7,7 @@ import XMark from '../svg/XMark'
 
 const Header = () => {
     return (
-        <Popover className="bg-black/90 backdrop-blur-sm fixed top-0 left-0 right-0 py-6">
+        <Popover className="bg-black/90 backdrop-blur-sm fixed top-0 left-0 right-0 py-6 z-50">
             <div className="container mx-auto px-6 lg:px-40">
                 <div className="flex items-center text-white gap-9">
                     <div className="flex-1 md:flex-none">
@@ -16,22 +16,22 @@ const Header = () => {
                     <div className="h-14 w-[1px] bg-[#333333] hidden md:block"></div>
                     <ul className="flex-1 hidden md:flex gap-9 text-[#b3b3b3] font-bold">
                         <li className="hover:text-white">
-                            <Link href="/home">
+                            <Link href="#home-section">
                                 Home
                             </Link>
                         </li>
                         <li className="hover:text-white">
-                            <Link href="/home">
+                            <Link href="#projects-section">
                                 Projects
                             </Link>
                         </li>
                         <li className="hover:text-white">
-                            <Link href="/home">
+                            <Link href="#contact-section">
                                 Contact
                             </Link>
                         </li>
                     </ul>
-                    <button className="bg-[#3ccf91] py-3 px-6 rounded-md font-extrabold hover:bg-[#222222] hidden md:block">Inquire Now</button>
+                    <a href="mailto:inquire@zkript.dev" className="bg-[#3ccf91] py-3 px-6 rounded-md font-extrabold hover:bg-[#222222] hidden md:block">Inquire Now</a>
                     <div className="block md:hidden">
                         <Popover.Button>
                             <Hamburger />
@@ -66,17 +66,17 @@ const Header = () => {
                             <div className="grid grid-cols-1 gap-y-4 gap-x-8">
                                 <ul className="flex flex-col gap-5 text-[#b3b3b3] font-bold">
                                     <li className="hover:text-white hover:bg-[#333333] w-full">
-                                        <Link href="/home">
+                                        <Link href="#home-section">
                                             Home
                                         </Link>
                                     </li>
                                     <li className="hover:text-white hover:bg-[#333333] w-full">
-                                        <Link href="/home">
+                                        <Link href="#projects-section">
                                             Projects
                                         </Link>
                                     </li>
                                     <li className="hover:text-white hover:bg-[#333333] w-full">
-                                        <Link href="/home">
+                                        <Link href="#contact-section">
                                             Contact
                                         </Link>
                                     </li>
@@ -84,7 +84,7 @@ const Header = () => {
                             </div>
                             <div>
                                 <a
-                                    href="#"
+                                    href="mailto:inquire@zkript.dev"
                                     className="flex w-full items-center justify-center rounded-md border border-transparent bg-[#3ccf91] px-4 py-2 text-base font-extrabold text-white shadow-sm hover:bg-[#222222]"
                                 >
                                     Inquire Now
