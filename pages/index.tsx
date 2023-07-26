@@ -61,13 +61,131 @@ const Home: NextPage = () => {
           <h4 className="text-xl text-[#b3b3b3] font-bold text-center">Featured Projects</h4>
           <h2 className="text-4xl hidden md:block font-bold text-center mt-5">We work closely to our clients to provide<br />the best possible results</h2>
           <h2 className="text-2xl block md:hidden font-bold text-center mt-5">We work closely to our clients to provide the best possible results</h2>
-          <div className="flex flex-col md:flex-row gap-10 mt-20">
+            <div id='category'>
+            <div id='website'>
+            <div className='mt-20'>
+            <h4 className="text-xl text-[#b3b3b3] font-bold">Websites</h4>
+            </div>
+            <div className="flex flex-col md:flex-row gap-10 mt-4">
+            <div className="flex-1">
+            <a href="https://filinvestland.stagingurls.com/">
+              <div className='relative'>
+             <img width="100%" height="330px" src="zkript-img/filinvest.png"  alt='img of FillInvestland' className='cursor-pointer' />
+             <div className='flex justify-start items-center absolute text-md text-white top-0 px-2 py-3 bg-opacity-70 bg-gradient-to-t from-transparent to-gray-500'>
+              <img src="favicon.png" width="7%" height="7%" alt=""  className='rounded-full'/>
+             <h4 className="ml-3 shadow">Filinvest Land, Incorporated</h4>
+             </div>
+             </div>
+             </a>
+            </div>
+            <div className="flex-1">
+            <a href="https://www.couriersandfreight.com.au/">
+            <div className='relative'>
+             <img width="100%" height="330" src="zkript-img/courier.png"  alt='img of FillInvestland' className='cursor-pointer' />
+             <div className='flex justify-start items-center absolute text-md text-white top-0 px-2 py-3 bg-opacity-70 bg-gradient-to-t from-transparent to-gray-500'>
+              <img src="favicon.png" width="7%" height="7%" alt=""  className='rounded-full'/>
+             <h4 className="ml-3 shadow">Couriers & Freight</h4>
+             </div>
+             </div>             
+             </a>           
+              </div>
+            </div>
+            <div className="flex flex-col md:flex-row gap-10 mt-4">
+            <div className="flex-1 w-full">
+            <a href="https://showcase.yahshuapayroll.com/">
+            <div className='relative'>
+             <img width="100%" height="330" src="zkript-img/yashua_payroll.png"  alt='img of FillInvestland' className='cursor-pointer' />
+             <div className='flex justify-start items-center absolute text-md text-white top-0 px-2 py-3 bg-opacity-70 bg-gradient-to-t from-transparent to-gray-500'>
+              <img src="favicon.png" width="7%" height="7%" alt=""  className='rounded-full'/>
+             <h4 className="ml-3 shadow">Yashua Payroll System</h4>
+             </div>
+             </div>             </a>
+            </div>
+            <div className="flex-1">
+            <a href="https://iampsbc.com/">
+            <div className='relative'>
+             <img width="100%" height="330" src="zkript-img/psbc.png"  alt='img of FillInvestland' className='cursor-pointer' />
+             <div className='flex justify-start items-center absolute text-md text-white top-0 px-2 py-3 bg-opacity-70 bg-gradient-to-t from-transparent to-gray-500'>
+              <img src="favicon.png" width="7%" height="7%" alt=""  className='rounded-full'/>
+             <h4 className="ml-3 shadow">Paete Science Business College Inc.</h4>
+             </div>
+             </div>             
+             </a>           
+              </div>
+            </div>
+            <div className="flex flex-col md:flex-row gap-10 mt-4">
+            <div className="flex-1 w-full">
+            <a href="https://freemont-sign-company.vercel.app/">
+            <div className='relative'>
+             <img width="100%" height="330" src="zkript-img/fremont.png"  alt='img of FillInvestland' className='cursor-pointer' />
+             <div className='flex justify-start items-center absolute text-md text-white top-0 px-2 py-3 bg-opacity-70 bg-gradient-to-t from-transparent to-gray-500'>
+              <img src="favicon.png" width="7%" height="7%" alt=""  className='rounded-full'/>
+             <h4 className="ml-3 shadow">Fremont Sign Company</h4>
+             </div>
+             </div>
+              </a>
+            </div>
+            <div className="flex-1">
+            <a href="https://app.saleskits.io/">
+            <div className='relative'>
+             <img width="100%" height="330" src="zkript-img/saleskits.png"  alt='img of FillInvestland' className='cursor-pointer' />
+             <div className='flex justify-start items-center absolute text-md text-white top-0 px-2 py-3 bg-opacity-70 bg-gradient-to-t from-transparent to-gray-500'>
+             <img src="favicon.png" width="7%" height="7%" alt=""  className='rounded-full '/>
+             <h4 className="ml-3 shadow">Saleskits</h4>
+             </div>
+             </div>             
+             </a>           
+              </div>
+            </div>
+            </div>
+            <div id='webapp'>
+            <div className='mt-20'>
+            <h4 className="text-xl text-[#b3b3b3] font-bold">Web Applications</h4>
+            </div>
+            <div className="flex flex-col md:flex-row gap-10 mt-4 items-center">
+            <div className="flex-1 w-full">
+            <iframe width="100%" height="330" src="https://www.youtube.com/embed/_6MqfJqoKz8" title="Student Attendance Manager Mobile App (uLog) 2022" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+            </div>
+            <div className="flex-1">
+            <iframe width="100%" height="330" src="https://www.youtube.com/embed/WD2jE8xYjy8" title="Mail Management System (PPBMS)" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>       
+              </div>
+            </div>
+            <div className="flex flex-col md:flex-row gap-10 mt-4">
+            <div className="flex-1 w-full">
+            <iframe width="100%" height="330" src="https://www.youtube.com/embed/LXFjSQBonDw" title="Payroll Management System (HurtAJ Admin)" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+            </div>
+            <div className="flex-1">
+            <iframe width="100%" height="330" src="https://www.youtube.com/embed/byeLygjh2ng" title="Investment and Points Management System (Lyradig) 2022" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>           
+              </div>
+            </div>
+            <div className="flex flex-col md:flex-row gap-10 mt-4">
+            <div className="flex-1 w-full">
+            <a href="https://shorturl.at/bsGV0 ">
+            <div className='relative'>
+             <img width="100%" height="330" src="zkript-img/enrollment.png"  alt='img of FillInvestland' className='cursor-pointer' />
+             <div className='flex justify-start items-center absolute text-md text-white top-0 px-2 py-3 bg-opacity-70 bg-gradient-to-t from-transparent to-gray-500'>
+              <img src="favicon.png" width="7%" height="7%" alt=""  className='rounded-full'/>
+             <h4 className="ml-3 shadow">PSBC Enrollment</h4>
+             </div>
+             </div>             
+             </a>
+            </div>
+            <div className="flex-1 w-full"></div>
+            </div>
+            </div>
+            <div id='mobileapp'>
+            <div className='mt-20'>
+            <h4 className="text-xl text-[#b3b3b3] font-bold">Mobile Application</h4>
+            </div>
+            <div className="flex flex-col md:flex-row gap-10 mt-4">
             <div className="flex-1">
               <iframe width="100%" height="330" src="https://www.youtube.com/embed/_6MqfJqoKz8" title="Student Attendance Manager Mobile App (uLog) 2022" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
             <div className="flex-1">
-              <iframe width="100%" height="330" src="https://www.youtube.com/embed/_6MqfJqoKz8" title="Student Attendance Manager Mobile App (uLog) 2022" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
+            </div>
+            </div>
+           
           </div>
         </div>
       </div>
