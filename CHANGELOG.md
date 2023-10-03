@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/zkript-apps/zkript-web/compare/v2.0.0...v2.0.1) (2023-10-03)
+
+
+### Bug Fixes
+
+* Downgrade eslint and typescript to fix originalKeywordKind error ([90e230b](https://github.com/zkript-apps/zkript-web/commit/90e230b35125a13f6111545eb07559f561c5650e))
+
 ## [2.0.0](https://github.com/zkript-apps/zkript-web/compare/v1.0.0...v2.0.0) (2023-10-03)
 
 
