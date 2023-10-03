@@ -1,5 +1,5 @@
-import Content from '@/components/pages/home/Content'
+import Content from "@/components/pages/home/Content"
 
 export default function Home() {
-  return <Content/>
+  return <Content />
 }
