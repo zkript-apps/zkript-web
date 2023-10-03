@@ -11,7 +11,7 @@ const Home: NextPage = () => {
     <>
     <Head>
       <title>Zkript - Software Development Company based in the Philippines</title>
-      <link rel="icon" type="image/x-icon" href="https://zkript.dev/favicon.png"/>
+      <link rel="icon" type="image/x-icon" href="/favicon.png"/>
       <meta
         name="description"
         content="Zkript, legally known as ZKRIPT SOLUTIONS OPC, is a software development company based in the Philippines. Start building amazing and reliable Software with us. Website, web application, mobile application, desktop application, you name it, we can build it for you."
@@ -23,7 +23,7 @@ const Home: NextPage = () => {
       />
       <meta
         property="og:image"
-        content="https://zkript.dev/og-img-zkript-software-development.png"
+        content="/og-img-zkript-software-development.png"
       />
     </Head>
     <div>
@@ -38,7 +38,7 @@ const Home: NextPage = () => {
           </div>
           <div className="hidden lg:block lg:w-1/3">
             <Image
-              src="https://zkript.dev/software-development-zkript.jpg"
+              src="/software-development-zkript.jpg"
               alt="Picture of the author"
               width={600}
               height={901}
@@ -47,7 +47,7 @@ const Home: NextPage = () => {
           </div>
           <div className="w-full lg:hidden">
             <Image
-              src="https://zkript.dev/software-engineer-zkript.jpg"
+              src="/software-engineer-zkript.jpg"
               alt="Picture of the author"
               width={2000}
               height={1333}
